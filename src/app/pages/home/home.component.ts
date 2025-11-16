@@ -5,10 +5,12 @@ import { ProductsComponent } from "../../components/products/products.component"
 import { WorkingComponent } from "../../components/working/working.component";
 import { FeaturesComponent } from "../../components/features/features.component";
 import { StatsComponent } from "../../components/stats/stats.component";
+import { TransformComponent } from "../../components/transform/transform.component";
+import { FooterComponent } from "../../components/footer/footer.component";
 
 @Component({
   selector: 'app-home',
-  imports: [NavbarComponent, HeroComponent, ProductsComponent, WorkingComponent, FeaturesComponent, StatsComponent],
+  imports: [NavbarComponent, HeroComponent, ProductsComponent, WorkingComponent, FeaturesComponent, StatsComponent, TransformComponent, FooterComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
